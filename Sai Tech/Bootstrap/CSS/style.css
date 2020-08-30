@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.logo-img{
+    border-radius: 50%;
+    margin-top: -5px;
+    box-shadow: 0 0 3px black;
+}
+.bg-teal,.btn-teal{
+    background-color:#2df8f0 !important;
+}
+.text-teal{
+    color:#2df8f0 !important;
+}
+.bg-dark,.btn-dark{
+    background: linear-gradient(45deg,black,darkslategray)!important;
+}
+.btn{
+    border-radius: 50px;
+}
+
+/*---------------landing------------*/
+.landing-section{
+background:white url("../../images/bg-image.jpg") no-repeat scroll center;
+background-size: cover;
+height: 100vh;
+color: white;
+}
+.landing-wrapper{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+.landing-wrapper h1{
+    font-size: 60px;
+}
+.landing-wrapper p{
+    font-size: 20px;
+}
+
+.intro-icon{
+    background-color: black;
+    color: #2df8f0;
+    border-radius: 50% ;
+    box-shadow: 0 0 3px black;
+}
+
+/*---------------Gallery section--------------------*/
+.gallery-img{
+    border-radius: 50px;
+    border: 5px solid #2df8f0 !important;
+    box-shadow: 0 0 10px black;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.gallery-img:hover{
+    transform: scale(1.05,1.05);
+}
+
+.btn-outline-white{
+    border: 2px solid #2df8f0 !important;
+
+}
+.btn-outline-white:hover{
+    border: 2px solid #2df8f0 !important;
+    color:  #2df8f0 !important;
+    box-shadow: 0 0 10px #2df8f0 !important;
+}
+/*----------Trainer image------------*/
+.tariner-img{
+box-shadow: 0 0 10px #2df8f0;
+margin-top: -50px;
+}
+.trainer-card{
+    border-radius: 15px !important;
+    background-color: #2df8f0 !important; 
+
+}
+.trainer-card:hover{
+    transform: translateY(-20px);
+    background: linear-gradient(45deg,black,darkslategray)!important;   
+    color:  #2df8f0 !important;
+    box-shadow: 0 0 10px  #2df8f0;
+}
+.google-map{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
